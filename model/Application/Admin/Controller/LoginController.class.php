@@ -12,4 +12,10 @@ class LoginController extends Controller {
     	return $this->display();
     }
 
+    public function check(){
+    	// echo "check_success";
+        print_r($_POST);
+    }
+
+
 }
