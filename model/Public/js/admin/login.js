@@ -17,7 +17,9 @@ var login={
        var data = {'username':username,'password':password};
        //执行异步请求，$.post
        $.post(url,data,function(result){
-
-       });
+            if(result.status==0){
+                return dialog.error(result.message);
+            }
+       },'JSON');
     }
 }

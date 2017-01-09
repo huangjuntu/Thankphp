@@ -14,7 +14,18 @@ class LoginController extends Controller {
 
     public function check(){
     	// echo "check_success";
-        print_r($_POST);
+        // print_r($_POST);
+        $username = $_POST['username'];
+        $password = $_POST['password'];
+        if(!trim($username)){
+            return show(0,'用户名不能为空');
+        }
+        if(!trim($password)){
+            return show(0,'密码不能为空');
+        }
+        $ret = D('Admin')->getAdminByUsername($username);
+        print_r($ret);
+
     }
 
 
