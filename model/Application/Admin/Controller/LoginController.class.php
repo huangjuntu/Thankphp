@@ -24,7 +24,18 @@ class LoginController extends Controller {
             return show(0,'密码不能为空');
         }
         $ret = D('Admin')->getAdminByUsername($username);
-        print_r($ret);
+        $pas = D('Admin')->getAdminByUsername($password);
+        // print_r($ret);
+        if(!$ret){
+            return show(0,'该用户不存在');
+        }
+        if(!$pas){
+            return show(0,'密码输入错误');
+        }
+        // 把用户是否登录的信息放到session里面
+        session('adminUser',$ret);
+        return show(1,'登陆成功！');
+        
 
     }
 

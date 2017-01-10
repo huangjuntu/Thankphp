@@ -11,26 +11,40 @@
 
     <title>sing后台管理平台</title>
     <!-- Bootstrap Core CSS -->
-    <link href="/Public/css/bootstrap.min.css" rel="stylesheet">
+    <!--<link href="/Public/css/bootstrap.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" type="text/css" href="/thinkphp3.2/model/Public/css/bootstrap.min.css" />
 
     <!-- Custom CSS -->
-    <link href="/Public/css/sb-admin.css" rel="stylesheet">
+    <!--<link href="/Public/css/sb-admin.css" rel="stylesheet">-->
+    <link rel="stylesheet" type="text/css" href="/thinkphp3.2/model/Public/css/sb-admin.css" />
 
     <!-- Morris Charts CSS -->
-    <link href="/Public/css/plugins/morris.css" rel="stylesheet">
+    <!--<link href="/Public/css/plugins/morris.css" rel="stylesheet">-->
+    <link rel="stylesheet" type="text/css" href="/thinkphp3.2/model/Public/css/plugins/morris.css" />
 
     <!-- Custom Fonts -->
-    <link href="/Public/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!--<link href="/Public/css/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link rel="stylesheet" href="/Public/css/sing/common.css" />
     <link rel="stylesheet" href="/Public/css/party/bootstrap-switch.css" />
-    <link rel="stylesheet" type="text/css" href="/Public/css/party/uploadify.css">
+    <link rel="stylesheet" type="text/css" href="/Public/css/party/uploadify.css">-->
+    <link rel="stylesheet" type="text/css" href="/thinkphp3.2/model/Public/css/font-awesome/css/font-awesome.min.css" />
+    <link rel="stylesheet" type="text/css" href="/thinkphp3.2/model/Public/css/sing/common.css" />
+    <link rel="stylesheet" type="text/css" href="/thinkphp3.2/model/Public/css/party/bootstrap-switch.css" />
+    <link rel="stylesheet" type="text/css" href="/thinkphp3.2/model/Public/css/party/uploadify.css" />
 
     <!-- jQuery -->
-    <script src="/Public/js/jquery.js"></script>
+    
+    <!--<script src="/Public/js/jquery.js"></script>
     <script src="/Public/js/bootstrap.min.js"></script>
     <script src="/Public/js/dialog/layer.js"></script>
     <script src="/Public/js/dialog.js"></script>
-    <script type="text/javascript" src="/Public/js/party/jquery.uploadify.js"></script>
+    <script type="text/javascript" src="/Public/js/party/jquery.uploadify.js"></script>-->
+
+    <script type="text/javascript" src="/thinkphp3.2/model/Public/js/jquery.js"></script>
+    <script type="text/javascript" src="/thinkphp3.2/model/Public/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/thinkphp3.2/model/Public/js/dialog/layer.js"></script>
+    <script type="text/javascript" src="/thinkphp3.2/model/Public/js/dialog.js"></script>
+    <script type="text/javascript" src="/thinkphp3.2/model/Public/js/party/jquery.uploadify.js"></script>
 
 </head>
 
