@@ -8,7 +8,10 @@ use Think\Controller;
 class LoginController extends Controller {
 
     public function index(){
-
+        // 如果登陆的时候，session信息存在，就跳转到后台首页
+        if(session('adminUser')){
+            $this->redirect('/thinkphp3.2/model/index.php?m=admin&c=index');
+        }
     	return $this->display();
     }
 
@@ -35,9 +38,10 @@ class LoginController extends Controller {
         // 把用户是否登录的信息放到session里面
         session('adminUser',$ret);
         return show(1,'登陆成功！');
-        
-
     }
-
+    public function loginout(){
+        session('adminUser',null);
+        $this->redirect('/thinkphp3.2/model/index.php?m=admin&c=login');
+    }
 
 }

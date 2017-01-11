@@ -77,7 +77,7 @@
        
         <li class="divider"></li>
         <li>
-          <a href="/admin.php?c=login&a=loginout"><i class="fa fa-fw fa-power-off"></i> 退出</a>
+          <a href="/thinkphp3.2/model/index.php?m=admin&c=login&a=loginout"><i class="fa fa-fw fa-power-off"></i> 退出</a>
         </li>
       </ul>
     </li>
