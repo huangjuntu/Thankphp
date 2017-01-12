@@ -4,7 +4,7 @@
  */
 namespace Admin\Controller;
 use Think\Controller;
-class MenuController extends Commontroller {
+class MenuController extends Controller {
     public function add() {
     	$this->display();
     }

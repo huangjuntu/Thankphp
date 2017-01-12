@@ -90,7 +90,7 @@
         <a href=""><i class="fa fa-fw fa-dashboard"></i> 首页</a>
       </li>
       <li>
-        <a href="/admin.php?c=menu"><i class="fa fa-fw fa-bar-chart-o"></i>菜单管理</a>
+        <a href=""><i class="fa fa-fw fa-bar-chart-o"></i>菜单管理</a>
       </li>
 
     </ul>
