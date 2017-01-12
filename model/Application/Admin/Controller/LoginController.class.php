@@ -10,7 +10,7 @@ class LoginController extends Controller {
     public function index(){
         // 如果登陆的时候，session信息存在，就跳转到后台首页
         if(session('adminUser')){
-            $this->redirect('/thinkphp3.2/model/index.php?m=admin&c=index');
+            $this->redirect('/admin.php?c=index');
         }
     	return $this->display();
     }
@@ -41,7 +41,7 @@ class LoginController extends Controller {
     }
     public function loginout(){
         session('adminUser',null);
-        $this->redirect('/thinkphp3.2/model/index.php?m=admin&c=login');
+        $this->redirect('/admin.php?c=login');
     }
 
 }

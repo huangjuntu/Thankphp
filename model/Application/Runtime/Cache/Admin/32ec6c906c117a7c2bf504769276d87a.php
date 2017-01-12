@@ -14,10 +14,10 @@
 
   <!-- Bootstrap core CSS -->
   <!-- <link href="/Public/css/bootstrap.min.css" rel="stylesheet"> -->
-  <link rel="stylesheet" type="text/css" href="/thinkphp3.2/model/Public/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="/Public/css/bootstrap.min.css" />
   <!-- Custom styles for this template -->
   <!--<link href="signin.css" rel="stylesheet">-->
-  <link rel="stylesheet" type="text/css" href="/thinkphp3.2/model/Public/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="/Public/css/bootstrap.min.css" />
   
 
 
@@ -50,13 +50,13 @@
 
 </div> <!-- /container -->
 <!-- <script src="/Public/js/jquery.js"></script> -->
-<script type="text/javascript" src="/thinkphp3.2/model/Public/js/jquery.js"></script>
+<script type="text/javascript" src="/Public/js/jquery.js"></script>
 <!-- <script src="/Public/js/dialog/layer.js"></script> -->
-<script type="text/javascript" src="/thinkphp3.2/model/Public/js/dialog/layer.js"></script>
+<script type="text/javascript" src="/Public/js/dialog/layer.js"></script>
 <!-- <script src="/Public/js/dialog.js"></script> -->
-<script type="text/javascript" src="/thinkphp3.2/model/Public/js/dialog.js"></script>
+<script type="text/javascript" src="/Public/js/dialog.js"></script>
 <!-- <script src="/Public/js/admin/login.js"></script> -->
-<script type="text/javascript" src="/thinkphp3.2/model/Public/js/admin/login.js"></script>
+<script type="text/javascript" src="/Public/js/admin/login.js"></script>
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script>
   // dialog.error("登录失败");

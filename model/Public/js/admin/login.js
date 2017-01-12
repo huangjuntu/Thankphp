@@ -13,7 +13,7 @@ var login={
        }
 
     //    var url = '/index.php?m=admin&c=login&a=check';
-       var url = '/thinkphp3.2/model/index.php?m=admin&c=login&a=check';
+       var url = '/admin.php?c=login&a=check';
        var data = {'username':username,'password':password};
        //执行异步请求，$.post
        $.post(url,data,function(result){
@@ -21,7 +21,7 @@ var login={
                 return dialog.error(result.message);
             }
             if(result.status==1){
-                return dialog.success(result.message,'/thinkphp3.2/model/index.php?m=admin&c=index');
+                return dialog.success(result.message,'/admin.php?c=index');
             }
        },'JSON');
     }
