@@ -3,7 +3,8 @@
 <div id="wrapper">
 
   <include file="Index/nav"/>
-  <script src="/Public/js/kindeditor/kindeditor-all.js"></script>
+<!--   <script src="/Public/js/kindeditor/kindeditor-all.js"></script> -->
+  <load href='__PUBLIC__/js/kindeditor/kindeditor-all.js' />
   <div id="page-wrapper">
 
     <div class="container-fluid">
@@ -54,7 +55,7 @@
                 <select class="form-control" name="title_font_color">
                   <option value="">==请选择颜色==</option>
                     <foreach name="titleFontColor" item="color">
-                      <option value="{$key}" <if condition="$key eq $news['title_font_color']">selected="selected"</if>>{$color}</option>
+                      <option value="{$key}" ><if condition="$key eq $news['title_font_color']">selected="selected"</if>>{$color}</option>
                     </foreach>
                 </select>
               </div>
@@ -65,7 +66,7 @@
                 <select class="form-control" name="catid">
 
                   <foreach name="webSiteMenu" item="sitenav">
-                    <option value="{$sitenav.menu_id}" <if condition="$sitenav['menu_id'] eq $news['catid']">selected="selected"</if>>{$sitenav.name}</option>
+                    <option value="{$sitenav.menu_id}"> <if condition="$sitenav['menu_id'] eq $news['catid']">selected="selected"</if>>{$sitenav.name}</option>
                   </foreach>
                 </select>
               </div>
@@ -77,7 +78,7 @@
                 <select class="form-control" name="copyfrom">
                   <foreach name="copyfrom" item="cfrom">
 
-                    <option value="{$key}" <if condition="$key eq $news['copyfrom']">selected="selected"</if>>{$cfrom}</option>
+                    <option value="{$key}"> <if condition="$key eq $news['copyfrom']">selected="selected"</if>>{$cfrom}</option>
                   </foreach>
                 </select>
               </div>
@@ -133,7 +134,8 @@
 
 </script>
 <!-- /#wrapper -->
-<script src="/Public/js/admin/image.js"></script>
+<!-- <script src="/Public/js/admin/image.js"></script> -->
+<load href='__PUBLIC__/js/admin/image.js' />
 <script>
   // 6.2
   KindEditor.ready(function(K) {

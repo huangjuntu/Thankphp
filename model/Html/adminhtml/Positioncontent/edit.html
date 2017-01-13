@@ -39,7 +39,7 @@
 				<select class="form-control" name="position_id">
 
 				  <foreach name="positions" item="position">
-				  <option value="{$position.id}" <if condition="$position['id'] eq $vo['position_id']">selected="selected" </if>>{$position.name}</option>
+				  <option value="{$position.id}"> <if condition="$position['id'] eq $vo['position_id']">selected="selected" </if>>{$position.name}</option>
 				</foreach>
 				</select>
 			  </div>
@@ -69,8 +69,8 @@
 			<div class="form-group">
 			  <label for="inputPassword3" class="col-sm-2 control-label">状态:</label>
 			  <div class="col-sm-5">
-				<input type="radio" name="status" id="optionsRadiosInline1" value="1" <if condition="$vo['status'] eq 1">checked</if>> 开启
-				<input type="radio" name="status" id="optionsRadiosInline2" value="0" <if condition="$vo['status'] eq 0">checked</if>> 关闭
+				<input type="radio" name="status" id="optionsRadiosInline1" value="1"> <if condition="$vo['status'] eq 1">checked</if>> 开启
+				<input type="radio" name="status" id="optionsRadiosInline2" value="0"> <if condition="$vo['status'] eq 0">checked</if>> 关闭
 			  </div>
 			  <input type="hidden" name="id"  value="{$vo.id}"/>
 			</div>
@@ -107,6 +107,8 @@
   }
 </script>
 <!-- /#wrapper -->
-<script type="text/javascript" src="/Public/js/admin/form.js"></script>
-<script src="/Public/js/admin/image.js"></script>
+<!-- <script type="text/javascript" src="/Public/js/admin/form.js"></script>
+<script src="/Public/js/admin/image.js"></script> -->
+<load href='__PUBLIC__/js/admin/form.js' />
+<load href='__PUBLIC__/js/admin/image.js' />
 <include file="Index/footer" />

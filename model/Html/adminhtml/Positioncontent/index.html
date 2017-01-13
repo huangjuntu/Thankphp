@@ -31,7 +31,7 @@
                         <span class="input-group-addon">推荐位</span>
                         <select class="form-control" name="position_id">
                             <foreach name="positions" item="position">
-                                <option value="{$position.id}"<if condition="$position['id'] eq $positionId">selected="selected"</if> >{$position.name}</option>
+                                <option value="{$position.id}"><if condition="$position['id'] eq $positionId">selected="selected"</if> >{$position.name}</option>
                             </foreach>
                         </select>
                     </div>
