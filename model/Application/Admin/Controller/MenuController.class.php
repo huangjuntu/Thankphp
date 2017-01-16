@@ -7,7 +7,7 @@ use Think\Controller;
 class MenuController extends CommonController {
     public function add() {
         if($_POST){
-            print_r($_POST);//测试
+            // print_r($_POST);//测试
             if (!isset($_POST['name'])||!$_POST['name']){
                 return show(0, '菜单名不能为空');
             }
