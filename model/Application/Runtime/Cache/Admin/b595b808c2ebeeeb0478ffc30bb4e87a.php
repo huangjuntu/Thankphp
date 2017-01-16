@@ -221,7 +221,7 @@
     <!-- /#wrapper -->
 
 <!--<script src="/Public/js/admin/common.js"></script>-->
-<!--<script type="text/javascript" src="/Public/js/admin/common.js"></script>-->
+<script type="text/javascript" src="/Public/js/admin/common.js"></script>
 
 
 

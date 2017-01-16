@@ -5,9 +5,8 @@
   <title>sing资讯</title>
   <!-- <link rel="stylesheet" href="/Public/css/bootstrap.min.css" type="text/css" />
   <link rel="stylesheet" href="/Public/css/home/main.css" type="text/css" /> -->
-  
-  <load href='__PUBLIC__/css/bootstrap.min.css' />
-  <load href='__PUBLIC__/css/home/main.css' />
+  <link rel="stylesheet" type="text/css" href="/Public/css/bootstrap.min.css" />
+  <link rel="stylesheet" type="text/css" href="/Public/css/home/main.css" />
 </head>
 <body>
 <header id="header">
